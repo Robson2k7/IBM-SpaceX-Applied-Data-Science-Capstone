@@ -7,8 +7,20 @@ The standard launch cost of a Falcon 9 rocket is $62 million, which is significa
 
 Therefore, the goal of the project is to analyze the factors affecting landing success and develop predictive models. Successful prediction of landing results can be valuable both to SpaceX and to competing companies considering entering the space market. The analysis includes aspects such as payload mass, launch site location, orbit type and the use of advanced analytical methods such as classification models.
 
-![image](https://github.com/user-attachments/assets/2a1b20ab-b370-4057-8ba6-0d8c5fede586)
+Methodology - Executive Summary:
 
-![image](https://github.com/user-attachments/assets/dc09fac5-b5c8-412a-9cc1-d2208a34206b)
+•	Data collection methodology:
+Data was collected by using request to the SpaceX API and by using web scraping from Wikipedia 
 
-![image](https://github.com/user-attachments/assets/8fb0bcdc-66f3-4b70-95f6-df26314ecac0)
+•	Perform data wrangling
+Data was filtered to only include Falcon 9 launches. Missing values was replaced by mean. One-hot encoding was used for categorical data. 
+
+•	Perform exploratory data analysis (EDA) using visualization and SQL
+
+•	Perform interactive visual analytics using Folium and Plotly Dash
+
+•	Perform predictive analysis using classification models
+Developed classification models, performed hyperparameter tuning using Grid Search, and evaluated their performance using metrics such as accuracy.
+
+Robson2k7
+11.11.2024
